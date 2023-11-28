@@ -1,0 +1,90 @@
+.info{
+    background-color: hsl(0, 6%, 97%);
+    width: 100%;
+    height: 1000px;
+   margin-block:-35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.info_left img{
+    width:600px;
+    height: 600px;
+    border-radius: 20px;
+}
+.info_right{
+   padding: 20px;
+    width: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.info_right_flex h1{
+    margin-top: 0px;
+    margin-bottom: 18px;
+    font-family: Archivo, sans-serif;
+    color: #1f1b1a;
+    font-size: 57px;
+    line-height: 1.12em;
+    font-weight: 700;
+    padding: 10px;
+}
+.info_right_flex h2{
+    color: #ff3000;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight:bolder;
+    font-family: Jost, sans-serif;
+    padding: 10px;
+}
+
+.info_right_flex h3{
+    font-family: Jost, sans-serif;
+    color: #615e5d;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.info_button{
+    display: flex;
+    padding: 10px;
+  
+}
+
+.info_button_height{
+    height: 100px;
+  width: 250px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+  
+}
+.info_button p{
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 20px 37px;
+    border-radius: 50px;
+    background-color: #00a36c;
+    font-family: Jost, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.info_button p:hover{
+    
+    font-size: 18px;
+    background-color: #14bed1;
+    transition: 0.3s ease;
+}
+

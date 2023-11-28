@@ -1,0 +1,170 @@
+.about_greeter{
+    background: url(../mywork/about_background.jpg);
+    background-size: cover;
+
+    height: 900px;
+    width: 100%;
+    margin-top: -40px;
+}
+
+
+.about_greeter_child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 0px;
+}
+.about_greeter_child_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+
+.about_greeter_child_left_back{
+    position: relative;
+width: 700px;
+height: 600px;
+animation: aboutme 15s infinite linear;
+}
+
+@keyframes aboutme {
+50%{
+    opacity: 0.2;
+}
+100%{
+    opacity: 1;
+}
+
+
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+
+
+
+
+.about_greeter_child_left_img{
+position: absolute;
+width: 470px;
+height: 470px;
+max-width: none;
+object-fit: cover;
+border-radius: 100%;
+}
+
+.about_greeter_child_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: -100px;
+    animation: about 2s;
+    
+}
+
+@keyframes about {
+    
+    from{
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+.about_whitebox{
+    width: 80%;
+    height: 650px;
+    background-color: white;
+    border-radius:  20px;
+    
+}
+
+.about_whitebox h1{
+    margin-top: 0px;
+    margin-bottom: 18px;
+    font-family: Archivo, sans-serif;
+    color: #1f1b1a;
+    font-size: 44px;
+    padding: 100px 0px 40px;
+    line-height: 1.12em;
+    font-weight: 700;
+    
+}
+
+.about_whitebox h2{
+    line-height: 1.5em;
+    margin-top: 0px;
+    font-family: Jost, sans-serif;
+    color: #615e5d; 
+    font-weight: 400;
+    width: 600px;
+    font-size: 20px;
+    padding: 0px 0px 70px;
+}
+
+
+.about_whitebox_h2{
+    display: flex; justify-content: center; align-items: center;
+}
+
+
+.about_greeter_child_right_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    }
+
+.about_greeter_child_right_button a {
+    font-family: Jost, sans-serif;
+    padding: 21px;
+    width: 400px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #fb8c23;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 20px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    
+}
+.about_button_height{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about_button_height :hover a{
+    background-color: #ff3000;
+    color: white;
+    -webkit-box-shadow: 5px 2px 20px 2px #ff3000;
+    -moz-box-shadow: 5px 2px  20px  2px #ff3000;
+    box-shadow: 5px 2px  20px  2px #ff3000;
+    transition: 0.5s ease;
+    font-size: 18px;
+}
+
+
+
+
+.abot_footer{
+    margin-top: -35px;
+}

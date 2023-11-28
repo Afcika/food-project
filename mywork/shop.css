@@ -1,0 +1,19 @@
+.Shop_Greeter_eight {
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    text-align: center;
+  } /* Gteeret five childs and ccs are connected*/
+
+.shop_padding{
+    padding: 0px 0px 100px;
+}
+.Shop_Greeter9_bottom{
+    max-width: 100%;
+    background:url(../mywork/1shop_9.svg);
+    height: 36px;
+    position:relative;
+    z-index: 1000;
+}
+
+

@@ -1,0 +1,2103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+.Headerh1 span{
+  font-family: "Homemade Apple", sans-serif;
+  color: #00a36c;
+}
+.Headerh1{
+  font-size:50px;
+}
+
+
+.index {
+  position: relative;
+  z-index: 100;
+}
+.stiky {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+}
+
+/* HEADER START  */
+
+.Header {
+  display: flex;
+  font-family: Jost, sans-serif;
+  font-weight: 700;
+  background-color: #fff;
+  width: 100%;
+}
+
+.HeaderLeft {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+}
+.HeaderLeft :hover {
+  color: green;
+  transition: 0.1s ease-out;
+}
+
+.HeaderLeft img {
+  width: 175px;
+  height: 64px;
+}
+.HeaderLeft a {
+  font-size: 14px;
+  line-height: 1.2em;
+  letter-spacing: 0.06em;
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+
+}
+
+.HeaderMid {
+  width: 40%;
+}
+
+.HeaderRight {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderRight img {
+  width: 17px;
+  height: 17px;
+  text-align: center;
+}
+.CartText {
+  padding: 0px 20px 0px 0px;
+}
+
+
+.HeaderRight p {
+  margin-left: 10px;
+  text-align: center;
+}
+.CartCounter {
+  display: inline-block;
+  height: 20px;
+  width: 10px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  background-color: #fff;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #00a36c;
+  color: #fff;
+}
+
+.HeaderButton {
+  display: flex;
+
+  position: relative;
+  z-index: 100;
+  height: 80px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.HeaderButton a{
+  padding: 13px 27px;
+  border-radius: 50px;
+  background-color: #16bed1;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: 0.3s ease-out;
+  text-decoration: none;
+}
+
+.HeaderButton :hover {
+  background-color: green;
+  padding: 15px 32px;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.counter-container{
+  border:1px solid #ffffff20;
+  border-radius: .1rem;
+ 
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.counter-container svg{
+  width: 3rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.counter-container span{
+  user-select: none;
+  position: absolute;
+  font-size: .8rem;
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  background-color: #fff;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #00a36c;
+  color: #fff;
+
+}
+
+.counter-container span:not(.animated-counter){
+
+
+}
+.counter-container span .animated-counter{
+  animation: count .4s ease-in-out;
+}
+
+
+/* .HederWave {
+  max-width: 100%;
+} */
+.HederWave{
+max-width: 100%;
+background: url(../mywork/7_bottom.svg);
+height: 36px;
+position: relative;
+transform: scaleY(-1);
+margin-block:-2px ;
+z-index: 100;
+
+}
+
+/* HEADER END */
+
+/* GREETER START */
+.Greeter {
+  display: block;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  height: 700px;
+  background-color: #f4f2f0;
+  margin-top: -40px;
+  font-family: Jost, sans-serif;
+  background-image: linear-gradient(
+    180deg,
+    rgba(230, 227, 224, 0.35),
+    rgba(221, 219, 218, 0.35)
+  );
+  font-weight: 600;
+  z-index: -5;
+  transform: scale(1);
+}
+
+.GreeterMaintext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Hed {
+  -webkit-animation-name: load1;
+  -webkit-animation-duration: 2s;
+}
+
+@keyframes load1 {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.GreeterMaintext p {
+  font-size: 81px;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  width: 700px;
+  padding: 140px 0px 50px;
+  -webkit-animation-name: load;
+  -webkit-animation-duration: 2s;
+}
+
+@keyframes load {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.Greeterinfotext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 40px;
+}
+.Greeterinfotext p {
+  font-size: 24px;
+  color: #615e5d;
+  font-weight: 200;
+  width: 610px;
+  -webkit-animation-name: load;
+  -webkit-animation-duration: 2s;
+}
+
+.GreeterButton {
+  display: flex;
+  width: 500px;
+  position: relative;
+  z-index: 100;
+  height: 100px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.GreeterButton a {
+  font-size: 16px;
+  background-color: #ff3000;
+  color: white;
+  border-radius: 60px;
+  padding: 25px 50px;
+  position: relative;
+  -webkit-animation-name: load;
+  -webkit-animation-duration: 2s;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.GreeterButton :hover {
+  background-color: #fb8c23;
+  padding: 30px 60px;
+  position: relative;
+  transition: 1s ease;
+  font-size: 18px;
+  -webkit-transition: 0.5s ease-out;
+}
+
+.GreeterImgOne {
+  transform: translate3d(-0.30951px, -851.2489px, 0px);
+  width: 300px;
+  height: 300px;
+  -webkit-animation-name: spin1;
+  -webkit-animation-duration: 1s;
+}
+
+@keyframes spin1 {
+  from {
+    transform: translate3d(-0.30951px, -1201.2489px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(100deg);
+  }
+  to {
+    transform: translate3d(-0.30951px, -851.2489px, 0px);
+  }
+}
+
+.GreeterImgTwo {
+  transform: translate3d(-550px, -250px, 0px);
+  width: 500px;
+  height: 500px;
+  -webkit-animation-name: spin2;
+  -webkit-animation-duration: 1.5s;
+}
+
+@keyframes spin2 {
+  from {
+    transform: translate3d(-550px, 50px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(50deg);
+  }
+  to {
+    transform: translate3d(-550px, -250px, 0px);
+  }
+}
+
+.GreeterImgThree {
+  transform: translate3d(220px, -600px, 0px);
+  width: 500px;
+  height: 500px;
+  -webkit-animation-name: spin3;
+  -webkit-animation-duration: 2s;
+  
+}
+@keyframes spin3 {
+  from {
+    transform: translate3d(220px, -1100px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(50deg);
+  
+    
+  }
+  to {
+    transform: translate3d(220px, -600px, 0px) rotateZ(0deg);
+  
+  }
+}
+
+/* GREETER END */
+
+/* Upperwave */
+.UpperWave {
+  transform: translate(0%, -85%);
+}
+
+.GreeterWave {
+  max-width: 100%;
+}
+/* Upperwave */
+
+/* 
+GREETER TWO START */
+
+.GreeterTwo {
+  height: 400px;
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+  margin-block: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+
+.GreeterTwo_one {
+  display: block;
+  height: 200px;
+}
+.GreeterTwo_one div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.GreeterTwo_one div h1 {
+  font-family: Archivo, sans-serif;
+  color: #1f1b1a;
+  font-size: 30px;
+  line-height: 1.1em;
+  font-weight: 700;
+}
+.GreeterTwo_one div p {
+  max-width: 350px;
+  font-size: 18px;
+  line-height: 1.6em;
+  text-align: center;
+  color: grey;
+}
+
+.outter {
+  width: 100px;
+  height: 100px;
+}
+
+.bruni :hover {
+  transition: 2s;
+  transform: rotate(359deg);
+}
+.inner {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+}
+
+.Greeter_Two_Wave {
+  margin-block: 39px;
+  max-width: 100%;
+}
+
+/* GREETER TWO END */
+
+/* GREETER 3 Start */
+.GreeterThree {
+  width: 100%;
+  height: 650px;
+  background-color: #00a36c;
+  margin-block: -80px;
+  display: flex;
+}
+
+.GreeterThree_left {
+  width: 50%;
+  height: 610px;
+  background-image: url(../mywork/Greeter_Three_left.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GreeterThree_left_centerer {
+  width: 500px;
+}
+
+.GreeterThree_left div h2 {
+  font-family: "Homemade Apple", sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+
+.GreeterThree_left div h1 {
+  margin-top: 0px;
+  margin-bottom: 18px;
+  font-family: Archivo, sans-serif;
+  color: #1f1b1a;
+  font-size: 44px;
+  line-height: 1.12em;
+  font-weight: 700;
+}
+.GreeterThree_left div h3 {
+  margin-bottom: 36px;
+  color: #fff;
+  font-family: Archivo, sans-serif;
+  line-height: 1.5em;
+}
+
+.Greeter_Three_button {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Greeter_Three_button a {
+  font-size: 16px;
+  background-color: #fb8c23;
+  color: #fff;
+  border-radius: 60px;
+  font-family: Jost, sans-serif;
+  font-weight: 600;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+.Greeter_Three_button :hover {
+  background-color: #ff3000;
+  padding: 25px 50px;
+  font-size: 17px;
+  transition: 0.3s ease;
+}
+
+.GreeterThree_right {
+  width: 50%;
+  height: 610px;
+  background-image: url(../mywork/Greeter_Three_right.jpg);
+}
+
+/* GREETER 3 END */
+
+/* GREETER 4 START */
+
+/* .Greeter4_top {
+  margin-block: -2px;
+  max-width: 100%;
+  width: 100%;
+} */
+
+.Greeter4_top {
+  max-width: 100%;
+  background: url(../mywork/7_bottom.svg);
+  height: 36px;
+  position: relative;
+  transform: scaleY(1);
+  z-index: 100;
+  margin-block: -2px;
+  
+  }
+
+.Greeter_four {
+  width: 100%;
+  height: 650px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 0px;
+  background-color: #fff;
+}
+
+.Greeter_four_left {
+  width: 50%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+ 
+}
+
+
+.Greeter_four_left_back {
+  position: relative;
+  width: 650px;
+  height: 550px;
+  top: 0;
+  left: 0;
+}
+.Greeter_four_left_img {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.Greeter_four_right {
+  width: 50%;
+  display: block;
+  z-index: 100;
+  height: 450px;
+ 
+}
+.Greeter_four_right h1 {
+  font-family: "Homemade Apple", sans-serif;
+  color: #00a36c;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+.Greeter_four_right h2 {
+  font-family: Archivo, sans-serif;
+  color: #1f1b1a;
+  font-size: 44px;
+  line-height: 1.12em;
+  font-weight: 700;
+  width: 500px;
+  padding: 20px 0px 20px;
+}
+
+.Greeter_four_right h3 {
+  color: grey;
+  font-family: Archivo, sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  width: 450px;
+  padding: 10px 0px 20px;
+}
+
+.Greeter_four_right div {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0px 0px;
+}
+.Greeter_four_right img {
+  width: 18px;
+  height: 18px;
+}
+.Greeter_four_right div p {
+  font-family: Archivo, sans-serif;
+  color: #1f1b1a;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+/* GREETER 4 END */
+
+/* GREETER 5 START */
+
+.Greeter_five {
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 100;
+}
+.Greeter_five_head h1 {
+  color: #00a36c;
+  font-size: 18px;
+  line-height: 1.3em;
+  font-family: "Homemade Apple", sans-serif;
+  padding: 100px 0px 0px;
+  padding: 50px 0px 10px;
+}
+.Greeter_five_head h2 {
+  font-family: Archivo, sans-serif;
+
+  color: #1f1b1a;
+  font-size: 44px;
+  line-height: 1.12em;
+  font-weight: 700;
+  padding: 0px 0px 10px;
+}
+
+.Greeter_five_head h3 {
+  font-family: Archivo, sans-serif;
+  color: #615e5d;
+  padding: 10px 0px 5px;
+  max-width: 600px;
+  padding-bottom: 50px;
+  word-spacing: 2px;
+  font-weight: 400;
+}
+.greeter5_centerer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Greeter_five_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-block: 20px;
+}
+
+.Greeter_five_flex_box {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border: solid 1px #e8e3df;
+}
+.parent {
+  width: 400px;
+  height: 192px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.child {
+  width: auto;
+  height: 192px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.7s;
+}
+.bg-one {
+  background-image: url(../mywork/g5_img1.jpg);
+}
+.bg-two {
+  background-image: url(../mywork/g5_img2.jpg);
+}
+.bg-three {
+  background-image: url(../mywork/g5_img3.jpg);
+}
+
+.Greeter_five_flex_box_hover:hover .child {
+  transform: scale(1.1);
+}
+
+/*///// */
+
+.Greeter_five_product_flex_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-block: 25px;
+}
+.Greeter_five_product_flex_1 h1 {
+  font-size: 30px;
+  font-family: Jost, sans-serif;
+  line-height: 1.2em;
+  font-weight: 700;
+  padding: 0px 10px 0px;
+  color: hsla(186.09625668449198, 80.95%, 45.29%, 1);
+}
+
+.Greeter_five_product_flex_1 h2 {
+  font-size: 18px;
+  font-family: Jost, sans-serif;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+.Greeter_five_info {
+  margin-block: -25px;
+}
+.Greeter_five_info_head {
+  font-family: Jost, sans-serif;
+  line-height: 1.2em;
+  font-weight: 700;
+  color: #1f1b1a;
+  background-color: black;
+  font-size: 24px;
+  padding: 30px 0px 20px;
+}
+#shop_blue {
+  background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
+}
+#shop_green {
+  background-image: linear-gradient(to right, #05a36d, #05a36d 50%, #000 50%);
+}
+#shop_orange {
+  background-image: linear-gradient(to right, #fb8c23, #fb8c23 50%, #000 50%);
+}
+
+.Greeter_five_info_head {
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.Greeter_five_info_head:hover {
+  background-position: 0;
+}
+
+.Greeter_five_info_text {
+  font-family: Jost, sans-serif;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  width: 350px;
+  color: #8f8d8c;
+  margin: auto;
+  padding: 0px 0px 50px;
+}
+
+.Greeter_five_button {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Greeter_five_button a {
+  font-size: 14px;
+  background-color: #fb8c23;
+text-decoration: none;
+  color: #fff;
+  border-radius: 60px;
+  font-family: Jost, sans-serif;
+  letter-spacing: 0.06px;
+  font-weight: 600;
+  padding: 13px 27px;
+  background-color: hsla(186.09625668449198, 80.95%, 45.29%, 1);
+}
+
+#shop_size :hover {
+  padding: 15px 30px;
+  transition: 0.3s ease;
+  font-size: 15px;
+}
+
+.Greeter_five_button_orange a {
+  background-color: #fb8c23;
+}
+.Greeter_five_orange h1 {
+  color: #fb8c23;
+}
+
+.Greeter_five_green h1 {
+  color: hsla(159.75460122699386, 100%, 31.96%, 1);
+}
+
+.Greeter_five_button_green a {
+  background-color: hsla(159.75460122699386, 100%, 31.96%, 1);
+}
+/* GREETER 5 END */
+
+/* GREETER 6 START */
+.Greeter6_top {
+  max-width: 100%;
+  background-color: #f4f2f0;
+}
+
+.Greeter_six {
+  width: 100%;
+  height: 600px;
+  background-color: #f4f2f0;
+  text-align: center;
+}
+
+.Greeter_six_head h1 {
+  color: #00a36c;
+  font-size: 18px;
+  line-height: 1.3em;
+  font-family: "Homemade Apple", sans-serif;
+  padding: 50px 0px 10px;
+}
+.Greeter_six_head h2 {
+  font-family: Archivo, sans-serif;
+  width: 600px;
+  color: #1f1b1a;
+  margin: auto;
+  font-size: 44px;
+  line-height: 1.12em;
+  font-weight: 700;
+  padding: 0px 0px 10px;
+}
+
+.Greeter_six_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.Greeter_six_flex_box {
+  width: 300px;
+  height: 230px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+/* 
+..Greeter_six_flex_box h1 {
+    background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  } */
+
+.Greeter_six_flex_box :before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  border-radius: 20px;
+  left: 15px;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Greeter_six_flex_box :hover::before {
+  width: 90%;
+}
+
+.Greeter_six_flex_img img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+}
+.Greeter_six_flex_text h1 {
+  color: #1f1b1a;
+  font-size: 20px;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 1.3em;
+  padding: 15px;
+}
+
+.Greeter_six_flex_text h2 {
+  width: 250px;
+  font-family: Archivo, sans-serif;
+  margin: auto;
+  color: grey;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.Greeter6_bottom {
+  max-width: 100%;
+  background: url(../mywork/6_end.svg);
+  margin-block: -10px;
+  height: 36px;
+  transform: scalex(-1);
+  z-index: 100;
+}
+
+/* GREETER 6 END */
+
+/* GREETER 7 START */
+.Greeter_seven {
+  z-index: 0;
+  width: 100%;
+  height: 600px;
+  margin-block: -35px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(31, 27, 26, 0.35),
+      rgba(31, 27, 26, 0.35)
+    ),
+    url(../mywork/7_background.jpg);
+  text-align: center;
+}
+.Greeter7_bottom {
+  max-width: 100%;
+  background: url(../mywork/7_bottom.svg);
+  height: 36px;
+  z-index: 100;
+}
+
+.Greeter_seven h1 {
+  color: #fff;
+  font-size: 81px;
+  line-height: 1.05em;
+  width: 1100px;
+  margin: auto;
+  padding: 150px 0px 70px;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+}
+.Greeter_seven span {
+  font-family: "Homemade Apple", sans-serif;
+}
+
+.Greeter_seven_button {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Greeter_seven_button a {
+  font-size: 16px;
+  background-color: #fb8c23;
+  color: #fff;
+  border-radius: 60px;
+  font-family: Jost, sans-serif;
+  letter-spacing: 0.06px;
+  font-weight: 600;
+  line-height: 1.2em;
+  text-decoration: none;
+  padding: 25px 50px;
+}
+
+.Greeter_seven_button :hover {
+  padding: 30px 55px;
+  font-size: 17px;
+  transition: 0.3s ease;
+  background-color: #ff3000;
+}
+
+/* GREETER 7 END */
+
+/* GREETER 8 START */
+
+.Greeter_eight {
+  width: 100%;
+  height: 1370px;
+  background-color: #fff;
+  text-align: center;
+} /* Gteeret five childs and ccs are connected*/
+
+.Greeter_eight_flex_box {
+  width: 400px;
+  height: 630px;
+  background-color: white;
+  border: solid 1px #e8e3df;
+}
+
+.Greeter_eight_info_head {
+  margin-top: 20px;
+  background-color: black;
+}
+.Greeter_eight_product_flex_1 {
+  margin-top: -5px;
+}
+.Greeter_eight_product_flex_1 h1 {
+  color: #ff3000;
+  font-size: 26px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+.Greeter_eight_button {
+  height: 50px;
+}
+.Greeter_eight_button a {
+  color: black;
+  background-color: #f4f2f0;
+  cursor: pointer;
+}
+
+#G8_button :hover {
+  color: white;
+  background-color: hsla(159.75460122699386, 100%, 31.96%, 1);
+  transition: 0.3s ease;
+  font-size: 16px;
+}
+
+.parent1 {
+  width: 400px;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.child1 {
+  width: auto;
+  height: 340px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.7s;
+}
+.bg-one1 {
+  background-image: url(../mywork/8_1.jpg);
+}
+.bg-two1 {
+  background-image: url(../mywork/8_2.jpg);
+}
+.bg-three1 {
+  background-image: url(../mywork/8_3.jpg);
+}
+
+.Greeter_five_flex_box_hover:hover .child1 {
+  transform: scale(1.1);
+}
+
+.Greeter_eight_two {
+  width: 1273px;
+  height: 335px;
+  border-radius: 15px;
+  background-color: #fb8c23;
+  text-align: left;
+  margin: auto;
+  display: flex;
+  margin-top: 70px;
+  background-image: url(../mywork/Greeter_Three_left.png);
+}
+
+.Greeter_eight_two_left {
+  width: 50%;
+  height: 335px;
+  background-image: url(../mywork/8_left.png);
+  border-radius: 15px;
+}
+.Greeter_eight_two_right {
+  width: 50%;
+}
+
+.Greeter_eight_two_right h1 {
+  color: white;
+  font-size: 18px;
+  line-height: 1.3em;
+  font-family: "Homemade Apple", sans-serif;
+  margin-top: 50px;
+  padding: 20px 0px 10px;
+}
+.Greeter_eight_two_right h2 {
+  width: 500px;
+  margin-bottom: 18px;
+  font-family: Archivo, sans-serif;
+  color: white;
+  font-size: 44px;
+  line-height: 1.12em;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.Greeter_eight_two_button_HOVERHEIGHT {
+  height: 100px;
+}
+
+.Greeter_eight_two_button {
+  display: flex;
+}
+.Greeter_eight_two_button a:hover {
+  background-color: #ff3000;
+  color: white;
+  -webkit-box-shadow: 10px 2px 70px 2px #ff3000;
+  -moz-box-shadow: 10px 2px 70px 2px #ff3000;
+  box-shadow: 10px 2px 70px 2px #ff3000;
+  transition: 0.5s ease;
+}
+.Greeter_eight_two_button a {
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border-radius: 60px;
+  font-family: Jost, sans-serif;
+  letter-spacing: 0.06px;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding: 25px 50px;
+  text-decoration: none;
+}
+
+.Greeter_eight_two_button :hover {
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+/* GREETER 8 END */
+
+/* GREETER 10 START */
+
+
+.Greeter_ten {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  text-align: center;
+  margin-block: -35px;
+
+  background-image: linear-gradient(
+      180deg,
+      rgba(31, 27, 26, 0.35),
+      rgba(31, 27, 26, 0.35)
+    ),
+    url(../mywork/ten_background.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Greeter_ten_up {
+  padding: 150px 0px 30px;
+  color: #fff;
+  font-size: 91px;
+  font-family: Archivo, sans-serif;
+  line-height: 1.12em;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -50px;
+}
+
+.ten_join {
+  font-size: 91px;
+  animation: join 2s linear infinite;
+  text-decoration: none;
+  font-weight: 700;
+
+  
+}
+
+@keyframes join {
+  0% {
+    
+    color: #fb8c23;
+  }
+  50% {
+   
+    color: white;
+  }
+  100% {
+    
+    color: #fb8c23;
+  }
+}
+
+.Greeter_ten_up span {
+  font-family: "Homemade Apple", sans-serif;
+}
+
+.Greeter_ten_button {
+  display: flex;
+}
+.Greeter_ten_button p {
+  background-color: #fb8c23;
+  color: white;
+  border-radius: 60px;
+  font-family: Jost, sans-serif;
+  padding: 20px 37px;
+  font-size: 16px;
+  line-height: 1.2em;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+.Greeter_ten_button :hover {
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  background-color: #ff3000;
+}
+
+.Greeter_ten_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100px;
+}
+
+.Greeter_ten_input {
+  height: 30px;
+  width: 350px;
+  margin-bottom: 0px;
+  padding: 14px 23px;
+  border-color: #e8e3df;
+  border-radius: 50px;
+  background-color: #fff;
+  font: inherit;
+  -webkit-transition: 0.2s;
+  transition: 0.5s;
+  font-size: 20px;
+  border-width: 1px;
+  color: #1f1b1a;
+  border-style: solid;
+  outline: none;
+}
+
+.Greeter_ten_input:focus {
+  border: 1px solid #555;
+}
+
+.footer_head {
+  max-width: 100%;
+  background: url(../mywork/footerwave.png);
+  height: 36px;
+  position: relative;
+  z-index: 1000;
+  margin-block:-2px;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #1f1b1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  position: relative;
+  z-index: 10;
+}
+
+.footer_left {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_left img {
+  width: 175px;
+  height: 64px;
+}
+
+.footer a {
+  color: #767473;
+  font-family: Jost, sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.Header_Right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Header_Right a {
+  text-decoration: none;
+  color:#767473;
+}
+
+.Header_Right_img_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  z-index: 0;
+  background-color: #2a2726;
+}
+.Header_Right_img_flex img {
+  z-index: 1;
+  position: relative;
+}
+
+footer a:hover {
+  color: white;
+  transition: 0.3s ease;
+}
+
+.Header_Right_img_flex:hover {
+  transition: 0.3s ease;
+  background-color: #666564;
+}
+
+
+
+
+.hidden{
+  opacity: 0;
+   transition: all 2s;
+  
+}
+@media (prefers-reduced-motion){
+  .hidden{
+      transition: none;
+      opacity: 1;
+    
+  }
+}
+
+.show{
+  opacity: 1;
+ 
+}
+
+
+
+.hiddenn{
+  opacity: 0;
+    transition: all 2s;
+   transform: translateX(-100%); 
+   /* filter: blur(2px); */
+ 
+  
+}
+
+.showw{
+  opacity: 1;
+   transform: translateX(0%);
+  /* filter: blur(0px);  */
+}
+
+.logo1{
+  transition-delay: 100ms;
+}
+
+.logo2{
+  transition-delay: 400ms;
+}
+
+.logo3{
+  transition-delay: 800ms;
+}
+
+
+
+
+/* GREETER 9 start
+GREETER 9 START
+GREETER 9 start
+GREETER 9 START */
+
+.Greeter9_top {
+  max-width: 100%;
+  background: url(../mywork/9_top.svg);
+  height: 36px;
+  background-color: #f4f2f0;
+  position: relative;
+  margin-block: -2px;
+  z-index: 10;
+}
+
+.Greeter_nine {
+  width: 100%;
+  height: 800px;
+  background-color: #f4f2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.Greeter_nine_info_centerer{
+  text-align: center;
+}
+
+.Greeter9_bottom {
+  max-width: 100%;
+  background: url(../mywork/9_bott.svg);
+  height: 36px;
+  position: relative;
+  margin-block: -2px;
+  z-index: 10;
+ 
+}
+
+/* ACCORDIAN */
+
+.accordian_gap{
+  margin-top: 20px;
+}
+
+
+
+.accoirdian{
+  margin: auto;
+  width: 750px;
+}
+
+.accoirdian li {
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background: white;
+ 
+}
+
+.accoirdian li label{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  font-family: Archivo, sans-serif;
+  color: #1f1b1a;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+
+label::after{
+  content:url(../mywork/arrow.svg);
+  transform: rotate(-90deg);
+  transition: 0.5s;
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 400;
+ 
+}
+
+
+
+
+
+input[type="radio"]{
+  display: none;
+}
+.accoirdian .content{
+  color: #555;
+  padding:0 10px;
+  line-height: 26px;
+  max-height: 0;
+  font-size: 18px;
+  color:#666564;
+  font-family: Jost, sans-serif;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s, content 2s;
+
+
+}
+
+.accoirdian input[type="radio"]:checked + label +.content{
+  max-height: 400px;
+  padding: 10px 10px 20px;
+}
+
+.accoirdian input[type="radio"]:checked + label::after{
+  transform: rotate(0deg);
+  transition: 0.5s;
+
+ 
+}
+
+
+
+/* GREETER 9 end
+GREETER 9 end
+GREETER 9 end
+GREETER 9 end */
+
+
+
+@media only screen and (max-width: 1777px) {
+
+  .GreeterImgOne {
+    transform: translate3d(-200px, -700px, 0px);
+    width: 300px;
+    height: 300px;
+    -webkit-animation-name: spin1;
+    -webkit-animation-duration: 1s;
+  }
+  
+  @keyframes spin1 {
+    from {
+      transform: translate3d(100px, -1000px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(100deg);
+    }
+    to {
+      transform: translate3d(-200px, -700px, 0px);
+    }
+  }
+  
+  .GreeterImgTwo {
+    transform: translate3d(-550px, -250px, 0px);
+    width:400px;
+    height: 400px;
+    -webkit-animation-name: spin2;
+    -webkit-animation-duration: 1.5s;
+  }
+  
+  @keyframes spin2 {
+    from {
+      transform: translate3d(-550px, 50px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(50deg);
+    }
+    to {
+      transform: translate3d(-550px, -250px, 0px);
+    }
+  }
+  
+  .GreeterImgThree {
+    transform: translate3d(220px, -600px, 0px);
+    width: 400px;
+    height: 400px;
+    -webkit-animation-name: spin3;
+    -webkit-animation-duration: 2s;
+    
+  }
+  @keyframes spin3 {
+    from {
+      transform: translate3d(100px, -1100px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(50deg);
+    
+      
+    }
+    to {
+      transform: translate3d(220px, -600px, 0px) rotateZ(0deg);
+    
+    }
+  }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1590px) {
+  .GreeterImgOne {
+    transform: translate3d(-200px, -700px, 0px);
+    width: 300px;
+    height: 300px;
+    -webkit-animation-name: spin1;
+    -webkit-animation-duration: 1s;
+  }
+  
+  @keyframes spin1 {
+    from {
+      transform: translate3d(100px, -1000px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(100deg);
+    }
+    to {
+      transform: translate3d(-200px, -700px, 0px);
+    }
+  }
+  
+  .GreeterImgTwo {
+    transform: translate3d(-550px, -250px, 0px);
+    width:400px;
+    height: 400px;
+    -webkit-animation-name: spin2;
+    -webkit-animation-duration: 1.5s;
+  }
+  
+  @keyframes spin2 {
+    from {
+      transform: translate3d(-550px, 50px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(50deg);
+    }
+    to {
+      transform: translate3d(-550px, -250px, 0px);
+    }
+  }
+  
+  .GreeterImgThree {
+    transform: translate3d(150px, -600px, 0px);
+    width: 350px;
+    height: 350px;
+    -webkit-animation-name: spin3;
+    -webkit-animation-duration: 2s;
+    
+  }
+  @keyframes spin3 {
+    from {
+      transform: translate3d(100px, -1100px, 0px) rotateX(20deg) rotateY(20deg) rotateZ(20deg);
+    
+      
+    }
+    to {
+      transform: translate3d(150px, -600px, 0px) rotateZ(0deg);
+    
+    }
+  }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1375px){
+  .GreeterImgOne {
+    transform: translate3d(-200px, -700px, 0px);
+    width: 300px;
+    height: 300px;
+    -webkit-animation-name: spin1;
+    -webkit-animation-duration: 1s;
+  }
+  
+  @keyframes spin1 {
+    from {
+      transform: translate3d(100px, -1000px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(100deg);
+    }
+    to {
+      transform: translate3d(-200px, -700px, 0px);
+    }
+  }
+  
+  .GreeterImgTwo {
+    transform: translate3d(-550px, -250px, 0px);
+    width:400px;
+    height: 400px;
+    -webkit-animation-name: spin2;
+    -webkit-animation-duration: 1.5s;
+  }
+  
+  @keyframes spin2 {
+    from {
+      transform: translate3d(-550px, 50px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(50deg);
+    }
+    to {
+      transform: translate3d(-550px, -250px, 0px);
+    }
+  }
+  
+  .GreeterImgThree {
+    transform: translate3d(100px, -200px, 0px);
+    width: 400px;
+    height: 400px;
+    -webkit-animation-name: spin3;
+    -webkit-animation-duration: 2s;
+   
+    
+  }
+  @keyframes spin3 {
+    from {
+      transform: translate3d(220px, -1100px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(50deg);
+    
+      
+    }
+    to {
+      transform: translate3d(100px, -200px, 0px) rotateZ(0deg);
+    
+    }
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 1330px){
+  .Greeter_four_left_back {
+    position: relative;
+    width: 550px;
+    height: 450px;
+    top: 0;
+    left: 0;
+  }
+  .GreeterImgOne {
+    transform: translate3d(-200px, -700px, 0px);
+    width: 300px;
+    height: 300px;
+    -webkit-animation-name: spin1;
+    -webkit-animation-duration: 1s;
+  }
+  
+  @keyframes spin1 {
+    from {
+      transform: translate3d(100px, -1000px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(100deg);
+    }
+    to {
+      transform: translate3d(-200px, -700px, 0px);
+    }
+  }
+  
+  .GreeterImgTwo {
+    transform: translate3d(-550px, -250px, 0px);
+    width:400px;
+    height: 400px;
+    -webkit-animation-name: spin2;
+    -webkit-animation-duration: 1.5s;
+  }
+  
+  @keyframes spin2 {
+    from {
+      transform: translate3d(-550px, 50px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(50deg);
+    }
+    to {
+      transform: translate3d(-550px, -250px, 0px);
+    }
+  }
+  
+  .GreeterImgThree {
+    transform: translate3d(0px, -200px, 0px);
+    width: 380px;
+    height: 380px;
+    -webkit-animation-name: spin3;
+    -webkit-animation-duration: 2s;
+   
+    
+  }
+  @keyframes spin3 {
+    from {
+      transform: translate3d(100px, -1100px, 0px) rotateX(30deg) rotateY(30deg) rotateZ(50deg);
+    
+      
+    }
+    to {
+      transform: translate3d(0px, -200px, 0px) rotateZ(0deg);
+    
+    }
+  }
+
+}
+
+@media only screen and (max-width:1289px){
+  .Greeter_four_left_back {
+    width: 450px;
+    height: 350px;
+   
+  }
+  .Greeter_four_left_img {
+
+    width: 400px;
+    height: 400px;
+    
+  }
+
+  .Greeter_five_flex {
+    gap: 10px;
+  }
+  .Greeter_six_flex{
+    gap: 10px;
+  }
+}
+
+
+@media only screen and (max-width:1260px){
+  .Greeter_five_flex_box {
+    width: 350px;
+    height: 500px;
+  }
+  .Greeter_eight_flex_box {
+    width: 350px;
+    height: 630px;
+    background-color: white;
+    border: solid 1px #e8e3df;
+  }
+
+  .Greeter_four_left_back {
+    width: 430px;
+    height: 350px;
+   
+  }
+  .Greeter_four_left_img {
+
+    width: 350px;
+    height: 350px;
+    
+  }
+
+  
+}
+@media only screen and (max-width:1131px){
+ .index {
+  
+ }
+ .GreeterTwo{
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  margin-block:-40px;
+ }
+
+ .Greeter_four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1200px;
+  
+ }
+
+ .Greeter_four_left{
+  margin-left: 0px;
+  margin-top: -40px;
+ }
+
+ .Greeter_four_right{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  flex-direction: column;
+ }
+ .Greeter_four_right div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ .Greeter_five{
+  height: 100%;
+ }
+ .Greeter_five_flex  {
+  display: flex;
+  gap: 20px;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Greeter_eight{
+  height: 100%;
+}
+}
+
+@media only screen and (max-width:967px){
+ .Header{
+
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+   .HeaderLeft {
+      padding: 10px 10px 10px 20px;
+  }
+  .HeaderLeft img{
+    display: none;
+  }
+  .HeaderMid{
+   display: none;
+  }
+   .HeaderRight{
+
+  }
+ 
+  .GreeterTwo{
+   display: flex;
+   flex-direction: column;
+   height: 1000px;
+    
+  }
+ 
+  .Greeter_four {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 1200px;
+   
+  }
+ 
+  .Greeter_four_left{
+   margin-left: 0px;
+   margin-top: -40px;
+  }
+ 
+  .Greeter_four_right{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: auto;
+   flex-direction: column;
+  }
+  .Greeter_four_right div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+  .Greeter_five{
+   height: 100%;
+  }
+  .Greeter_five_flex  {
+   display: flex;
+   gap: 20px;
+   
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .Greeter_eight{
+   height: 100%;
+ }
+
+.GreeterThree{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  flex-direction:column;
+  height: 1400px;
+  margin-block: -40px;
+}
+
+.GreeterThree_right{
+  background-size: cover;
+  width: 100%;
+  padding: 10 0px 0px 0px;
+}
+
+.Greeter_four_left_back {
+  width: 350px;
+  height: 300px;
+ 
+}
+.Greeter_four_left_img {
+
+  width: 250px;
+  height: 250px;
+  
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  gap: 50px;
+
+}
+.footer_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+
+}
+.Header_Right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+
+}
+
+.Greeter_six_flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 100px 0px 0px;
+  gap: 40px;
+  height: 100%;
+
+}
+.Greeter_six{
+  height: 1500px;
+}
+.Greeter_eight_two{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+}
+.Greeter_eight_two_left{
+  width: 100%;
+ background-size: cover
+  ;
+}
+.accoirdian li{
+  width: 95%;
+}
+.Greeter_ten_up{
+  font-size: 70px;
+}
+.Greeter_ten_flex{
+  gap: 10px;
+}
+
+.Greeter_seven{
+  height: 100%;
+}
+.Greeter_seven h1{
+  font-size: 60px;
+}
+.Greeter_seven_button{
+  margin-top: -50px;
+}
+.Greeter6_top{
+  display: none;
+}
+
+.Greeter_eight_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.Greeter_eight_two_button a{
+  margin: auto;
+}
+ }
+ 
+
